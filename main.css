@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    background-color: rgb(21, 1, 1);
+    padding: 40px 0;
+    color:rgb(213, 47, 47);
+    font-family: "Bungee", sans-serif;
+}
+
+section h4 {
+    color: white;
+    font-size: 24px;
+}
+
+#Acessorios h1, #Monitores h1, #PcGamer h1, #Jogos h1 {
+    font-family: "Bungee", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(194, 37, 37)
+} 
+
+#Acessorios h4, #Monitores h4, #PcGamer h4, #Jogos h4 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header li a {
+    color: white;
+    padding: 1px;
+    font-family: "Bungee", sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+header li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 55%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {    
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #343434;
+    color:white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.articles article:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Acessorios {
+    background-color: rgb(43, 33, 160);
+}
+
+#Acessorios .articles article a {
+    background-color:rgb(187, 35, 35);
+
+}
+
+#Monitores {
+    background-color: rgb(52, 39, 195);
+}
+
+#Monitores .articles article a {
+    background-color:red;
+
+}
+
+#PcGamer {
+    background-color:rgb(41, 31, 158);
+}
+
+#PcGamer .articles article a {
+    background-color:red;
+}
+
+#Jogos {
+    background-color:rgb(59, 47, 191);
+}
+
+#Jogos .articles article a {
+    background-color:red;
+}
+
+.Social-links img {
+    height: 24px;
+}
+
+.Social-links li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.Social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(3, 1, 27);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #241277;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(3, 1, 27);
+}
+
+footer {
+    background-color: rgb(3, 1, 27);
+    color: white;
+    padding: 16px 0;
+}
+
+section p{
+    color: white;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section h3 {
+    color: white;
+}
+
+#about {
+    background-color:rgb(178, 9, 9) ;
+}
+
+#contact {
+    background-color: rgb(178, 9, 9);
+}
+
+.brands-list {
+    background-color: rgb(178, 9, 9);
+}
+
+section h3 {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+form textarea {
+    resize: none;
+}
+
+#about h2 {
+    color:white;
+}
+
+.sobre_jogo img {
+    height: 230px;
+    margin-right: 32px;
+}
+
+.sobre_jogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sobre_jogo  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sobre_jogo p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
